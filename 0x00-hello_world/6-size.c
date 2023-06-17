@@ -1,4 +1,4 @@
-#include <std10.h>
+#include <stdio.h>
 /**
  * main - A project that print various comoputer type
  * Return: 0 (Success)
