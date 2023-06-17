@@ -5,10 +5,10 @@
  */
 int main(void)
 {
-	fprintf(stdout, "size of a char: %lu byte(s)\n", sizeof(char));
-	fprintf(stdout, "size of an int: %lu byte(s)\n", sizeof(int));
-	fprintf(stdout, "size of a long int: %lu byte(s)\n", sizeof(long int));
-	fprintf(stdout, "size of a long long int: %lu byte(s)\n", sizeof(long long int));
-	fprintf(stdout, "size of a float: %lu byte(s)\n", sizeof(float));
+	write(stderr, "size of a char: %lu byte(s)\n", sizeof(char));
+	write(stderr, "size of an int: %lu byte(s)\n", sizeof(int));
+	write(stderr, "size of a long int: %lu byte(s)\n", sizeof(long int));
+	write("size of a long long int: %lu byte(s)\n", sizeof(long long int));
+	write(stderr, "size of a float: %lu byte(s)\n", sizeof(float));
 	return (0);
 }
